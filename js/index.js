@@ -1,0 +1,10 @@
+const words = ['future.', 'the', 'for', 'care', 'We', 'world.', 'Hello'];
+const message = words.reverse().join(' ');
+const container = document.createElement("div"); 
+const textContent = document.createTextNode(message);
+container.style.fontSize = '36px';
+container.style.fontWeight = 'bold';
+container.appendChild(textContent);  
+document.body.appendChild(container); 
+const whereWeDoIt = 'https://bit.ly/42JxtCa';
+window.open(whereWeDoIt);
